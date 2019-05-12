@@ -1,0 +1,10 @@
+<h3>List of projects:</h3>
+  <ul>
+  <li *ngFor="let proj of projects" [value]="proj.id">
+    <a routerLink={{proj.id}}>{{ proj.name }}</a>
+  </li>
+  <router-outlet></router-outlet>
+</ul>
+<a routerLink="new"
+   class="button"> <span> New </span>
+</a>

@@ -1,4 +1,4 @@
 export const environment = {
-  appName: 'Angular Board PROD',
+  appName: 'Training Projects PRO',
   production: true
 };
